@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio -- Dany Jiménez</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/app2.js"></script>
+
+</head>
+<body>
+    <div id="cursor"></div>
+    <header class="header">
+        <div class="logotipomenu">
+            <a href="index.html" title="Dany Jiménez" class="a logotipo">
+                <img src="assets/logo.svg" class="logo">        
+            </img>
+            <h1 class="h1">Dany Jiménez</h1>
+        </a>
+            <div class="logomenu">
+                <div id="logomenu" class="logomenu_icon">
+                    <div class="first-bar"></div>
+                    <div class="second-bar"></div>
+                    <div class="third-bar"></div>
+                </div>
+            </div>
+        </div>
+        <nav id="menu" class="nav">
+            <ul class="ul">
+                <li class="li"><a href="index.html#inicio" title="Inicio" class="a">Inicio</a></li>
+                <li class="li"><a href="index.html#proyectos" title="Proyectos" class="a">Proyectos</a></li>
+                <li class="li"><a href="index.html#contacto" title="Contacto" class="a">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <main>
+        <section class="section info">
+            <div class="principal">
+                <h1 class="h1">Real Ávila C.F.</h1>
+                <p class="p">Página web oficial del Real Ávila Club de Fútbol.</p>
+                <p class="p">Durante cuatro años diseñé la pagina web del club utilizando la tecnología de un cms, desarrollando además distintos addons para mejorar el diseño de la misma.</p>
+                <p class="p">En este período también realicé distintos trabajos como diseñador gráfico para el club: carteles de partidos, diseños del carnet de socios, carteles publicitarios, banners, etc.</p>
+                <div class="bloque">
+                    <div class="wrap">
+                        <div class="item">
+                            <div class="title">AÑO</div>
+                            <div class="text">2011</div>
+                        </div>
+                        <div class="item">
+                            <div class="title">ROL</div>
+                            <div class="text">Diseñador web y diseñador gráfico</div>
+                        </div>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.danieljimenezmartin.com" class="a" title="Web Personal" target="_blank" rel="noopener noreferrer" ></a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="images">
+                <div class="imageArea">
+                    <picture class="picture">
+                        <source srcset="/assets/project3/portada.webp, assets/project3/detalle1.jpg">
+                        <img class="img" src="assets/project3/portada.jpg" alt="real-avila" loading="lazy">
+                    </picture>
+                    <picture class="picture">
+                        <source srcset="/assets/project3/detalle1.webp, assets/project3/detalle1.jpg">
+                        <img class="img" src="assets/project3/detalle1.jpg" alt="real-avila" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="section galerialightbox">
+            <h2 class="h2">Diseños de carteles</h2>
+            <ul class="ul-li">
+                <li class="li"><a href="#" class="a-li" title="Imagen 1"><img src="assets/lightbox/2.jpg" alt="Imagen 1" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 2"><img src="assets/lightbox/3.jpg" alt="Imagen 2" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 3"><img src="assets/lightbox/4.jpg" alt="Imagen 3" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 4"><img src="assets/lightbox/5.jpg" alt="Imagen 4" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 5"><img src="assets/lightbox/6.jpg" alt="Imagen 5" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 6"><img src="assets/lightbox/7.jpg" alt="Imagen 6" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 7"><img src="assets/lightbox/8.jpg" alt="Imagen 7" class="img" loading="lazy"></a></li>
+                <li class="li"><a href="#" class="a-li" title="Imagen 8"><img src="assets/lightbox/9.jpg" alt="Imagen 8" class="img" loading="lazy"></a></li>
+            </ul>
+
+            <div class="lightbox">
+                <button class="cerrar"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="iconocerrar a" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg></button>
+                    <img src="" alt="Imagen 1" class="grande" loading="lazy">
+            </div>
+        </section>
+        <section class="section carrousel">
+            <h2 class="h2">Otros diseños (carnets, anuncios...)</h2>
+                <div class="big">
+                    <img src="assets/carrusel/1.jpg" alt="Imagen 1" class="img" loading="lazy">
+                    <img src="assets/carrusel/2.jpg" alt="Imagen 2" class="img" loading="lazy">
+                    <img src="assets/carrusel/3.jpg" alt="Imagen 3" class="img" loading="lazy">
+                    <img src="assets/carrusel/4.jpg" alt="Imagen 4" class="img" loading="lazy">
+                    <img src="assets/carrusel/5.jpg" alt="Imagen 5" class="img" loading="lazy">
+                    <img src="assets/carrusel/6.jpg" alt="Imagen 6" class="img" loading="lazy">
+                    <img src="assets/carrusel/7.jpg" alt="Imagen 7" class="img" loading="lazy">
+                    <img src="assets/carrusel/8.jpg" alt="Imagen 8" class="img" loading="lazy">
+                    <img src="assets/carrusel/9.jpg" alt="Imagen 9" class="img" loading="lazy">
+                    <img src="assets/carrusel/10.jpg" alt="Imagen 10" class="img" loading="lazy">
+                </div>
+
+                <ul class="puntos">
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                </ul>
+        </section>
+    </main>
+    <footer class="footer flecha">
+        <div class="flecha_izq">
+            <a href="project2.html" class="a" title="anterior">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="ico" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+
+                  </svg>
+            </a>      
+        </div>
+        <div class="flecha_der">
+            <a href="project4.html" class="a" title="siguiente">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="ico" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
