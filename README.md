@@ -2,7 +2,7 @@
  Portfolio que incluye todos mis proyectos
 ## Descripción 🖋
 
-Este es mi Portfolio personal creado con HTML5, CSS3, y JavaScript. La web ha sido desarrollada con un diseño responsive. En ella se incluyen mis principales proyectos como diseñador web y también algunos proyecto de diseño gráfico.
+Este es mi Portfolio personal creado con HTML5, CSS3, y JavaScript. La web ha sido desarrollada con un diseño responsive. En ella se incluyen mis principales proyectos como diseñador web y también algunos proyectos de diseño gráfico.
 
 ## Autor 👨🏽‍💻
 **Daniel Jiménez Martín**
