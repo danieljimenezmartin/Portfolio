@@ -7,7 +7,7 @@ Este es mi Portfolio personal creado con HTML5, CSS3, y JavaScript. La web ha si
 ## Autor 👨🏽‍💻
 **Daniel Jiménez Martín**
 
-* [LinkedIn](https://www.linkedin.com/in/danieljimenezmartin)
+* [LinkedIn](https://www.linkedin.com/in/dany-jimenez/)
 * [Portfolio web](https://www.danyjimenez.com)
 
 ## Ver ejemplo en vivo ⚡
