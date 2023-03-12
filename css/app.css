@@ -503,6 +503,20 @@ body {
   mix-blend-mode: difference;
 }
 
+#foto{
+  width: 20em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 2;
+  transform: rotate(-8deg);
+}
+
+#foto.mostrar{
+  opacity: 1;
+}
+
 @media (pointer:coarse) {
   #cursor{
     display: none;

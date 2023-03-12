@@ -22,6 +22,30 @@ $(document).ready(function(){
         })
 })
 
+//MOSTRAR FOTO
+$(document).ready(function(){
+        
+        $('.nombre').on({ 'mousemove' : function( e ){
+                console.clear()
+                let clientX = e.originalEvent.clientX
+                let clientY = e.originalEvent.clientY
+                $('#foto').css({
+                        'left' : (clientX) + 'px',
+                        'top' : (clientY) + 'px'
+                })
+        }})
+
+        $('.nombre').on({
+                'mouseover': function(){
+                        $('#foto').addClass('mostrar')
+                },
+                'mouseout': function(){
+                        $('#foto').removeClass('mostrar')
+                },
+        })
+})
+
+
 //MOSTRAR/OCULTAR MENU DISPOSITIVOS MÓVILES
 const logoMenu = document.getElementById('logomenu')
 const Menu = document.getElementById('menu')
