@@ -1,14 +1,14 @@
 'use strict'
 //LIGHTBOX
-const enlaces = document.querySelectorAll('.ul-li .a-li')
-const lightbox = document.querySelector('.lightbox')
-const grande = document.querySelector('.grande')
-const cerrar = document.querySelector('.cerrar')
+const enlaces = document.querySelectorAll('.section-galerialightbox__ul-li .a-li')
+const lightbox = document.querySelector('.section-galerialightbox__lightbox')
+const grande = document.querySelector('.section-galerialightbox__grande')
+const cerrar = document.querySelector('.section-galerialightbox__cerrar')
 
 enlaces.forEach(( cadaEnlace, i)=>{
         enlaces[i].addEventListener('click', (e)=>{
                 e.preventDefault()
-                let ruta = cadaEnlace.querySelector('.img').src
+                let ruta = cadaEnlace.querySelector('.section-galerialightbox__img').src
                 console.log(ruta)
 
                 lightbox.classList.add('activo')
@@ -23,8 +23,8 @@ cerrar.addEventListener('click', ()=>{
 })
 
 //CARRUSEL
-const big = document.querySelector('.big');
-const punto = document.querySelectorAll('.punto');
+const big = document.querySelector('.section-carrousel__big');
+const punto = document.querySelectorAll('.section-carrousel__punto');
 
 punto.forEach( ( cadaPunto , i )=> {
         punto[i].addEventListener('click',()=>{
